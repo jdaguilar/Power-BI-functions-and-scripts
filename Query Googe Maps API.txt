@@ -9,3 +9,8 @@ let
     #"Removed Columns" = Table.RemoveColumns(#"Expanded location",{"bounds", "address_components", "viewport", "location_type", "place_id", "types"})
 in
     #"Removed Columns"
+    
+    
+    
+    
+ 
