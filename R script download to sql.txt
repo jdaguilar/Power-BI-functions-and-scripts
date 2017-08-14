@@ -1,0 +1,6 @@
+library(RODBC)
+conn <- odbcDriverConnect("driver=SQL Server;server=.\\SQLEXPRESS;Database=<databasename>;Uid=<sa>;
+Pwd=<password>")
+odbcClearError(conn)
+sqlSave(conn, dataset, tablename="<tablename>",rownames=FALSE, safer=FALSE, append=TRUE)
+close(conn)
