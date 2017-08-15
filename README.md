@@ -7,7 +7,7 @@ Tutorial for Google maps: https://www.youtube.com/watch?v=87UsaOYD-ZM
 
 Tutorial for export data to excel from Power Query: https://www.youtube.com/watch?v=56FV6x8vYyQ
 
-Tutorial for export data to sql from Power Query:
+Tutorial for export data to sql from Power Query: https://www.youtube.com/watch?v=ANIZkTZO3eU
 
 Let me know if you find errors or have questions.
 /Ruth
