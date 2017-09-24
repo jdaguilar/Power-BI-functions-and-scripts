@@ -11,7 +11,7 @@ let
     #"List to table" = Table.FromList(#"Invoke dates", Splitter.SplitByNothing(), null, null, ExtraValues.Error),
     //Rename column to Date
     Date = Table.RenameColumns(#"List to table",{{"Column1", "Date"}}),
-    // Extract Day from Date column and add leading zeros ì00î
+    // Extract Day from Date column and add leading zeros ‚Äú00‚Äù
     #"Day Added" = Table.AddColumn(Date, "Day", each Text.PadStart(Number.ToText(Date.Day([Date])),2,"0")),
     // Extract Day Name from Date column using american names.
     // Navigate here for other Languages not included in the parameters: https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx
