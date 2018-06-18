@@ -8,6 +8,8 @@ sqlSave(conn, dataset, tablename="<tablename>",rownames=FALSE, safer=FALSE, appe
 close(conn)
 
 //Download data to sql from Power query using R where the data is appended without duplicates By Nelon Roy
+OBS! This will drop the original table.
+
 library(RODBC)
 conn <- odbcDriverConnect("driver=SQL Server; server=.\\SQLEXPRESS; Database=SQLDB")
 odbcClearError(conn)
