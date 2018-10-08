@@ -6,7 +6,8 @@ library(RODBC)           # Provides database connectivity
 # The Connection string comes from the Azure ODBC text box
 connectionString <- "Driver={SQL Server Native Client 11.0};
 Server=tcp:servername.database.windows.net,1433;
-Databusername@servername;
+Database=DatabaseName;
+Uid=username@servername;
 Pwd=Password;
 Encrypt=yes;
 TrustServerCertificate=no;
