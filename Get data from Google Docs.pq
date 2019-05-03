@@ -15,7 +15,7 @@ Documentation.Name =  "	Get Excel files from Google Docs
 ", Documentation.Source = "	local
 ", Documentation.Author = "	Ruth Pozuelo Martinez. www.curbal.com
 ", Documentation.Examples = {[Description =  "	
-" , Code = "	A video coming up explains how this is done
+" , Code = "	https://www.youtube.com/watch?v=2hFCeduIP6k
  ", Result = "	
 "]}]	
  in	
