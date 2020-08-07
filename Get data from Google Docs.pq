@@ -1,6 +1,6 @@
 let Docs=
 
-(key as text)=>
+(#"GOOGLE SHEET URL" as text)=>
 let
     new_url = Text.Replace(#"GOOGLE SHEET URL", "edit?usp=sharing", "export?format=xlsx"),
     Source = Excel.Workbook(Web.Contents(new_url), null, true)
